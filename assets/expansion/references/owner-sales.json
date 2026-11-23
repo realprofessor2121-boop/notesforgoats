@@ -1,0 +1,161 @@
+{
+  "title": "Top TuneCore territories",
+  "period": {
+    "start": "2025-07",
+    "end": "2026-06"
+  },
+  "label": "Ranked by reported Total Earned (USD)",
+  "source": "NFG owner’s TuneCore sales exports, 12 reporting months",
+  "description": "The ranking sums reported earnings by Country of Sale. Reporting periods can contain activity from earlier sales periods. Rows without a stated country are excluded from the country rankings.",
+  "territories": [
+    {
+      "rank": 1,
+      "code": "US",
+      "market": "United States"
+    },
+    {
+      "rank": 2,
+      "code": "GB",
+      "market": "United Kingdom"
+    },
+    {
+      "rank": 3,
+      "code": "FR",
+      "market": "France"
+    },
+    {
+      "rank": 4,
+      "code": "CA",
+      "market": "Canada"
+    },
+    {
+      "rank": 5,
+      "code": "DE",
+      "market": "Germany"
+    },
+    {
+      "rank": 6,
+      "code": "AU",
+      "market": "Australia"
+    },
+    {
+      "rank": 7,
+      "code": "NL",
+      "market": "Netherlands"
+    },
+    {
+      "rank": 8,
+      "code": "BR",
+      "market": "Brazil"
+    },
+    {
+      "rank": 9,
+      "code": "KR",
+      "market": "South Korea"
+    },
+    {
+      "rank": 10,
+      "code": "NZ",
+      "market": "New Zealand"
+    }
+  ],
+  "streamTerritories": [
+    {
+      "rank": 1,
+      "code": "US",
+      "market": "United States"
+    },
+    {
+      "rank": 2,
+      "code": "GB",
+      "market": "United Kingdom"
+    },
+    {
+      "rank": 3,
+      "code": "CA",
+      "market": "Canada"
+    },
+    {
+      "rank": 4,
+      "code": "BR",
+      "market": "Brazil"
+    },
+    {
+      "rank": 5,
+      "code": "AU",
+      "market": "Australia"
+    },
+    {
+      "rank": 6,
+      "code": "FR",
+      "market": "France"
+    },
+    {
+      "rank": 7,
+      "code": "DE",
+      "market": "Germany"
+    },
+    {
+      "rank": 8,
+      "code": "ZA",
+      "market": "South Africa"
+    },
+    {
+      "rank": 9,
+      "code": "NL",
+      "market": "Netherlands"
+    },
+    {
+      "rank": 10,
+      "code": "KR",
+      "market": "South Korea"
+    }
+  ],
+  "platforms": [
+    {
+      "rank": 1,
+      "name": "Apple/iTunes"
+    },
+    {
+      "rank": 2,
+      "name": "Spotify"
+    },
+    {
+      "rank": 3,
+      "name": "YouTube"
+    },
+    {
+      "rank": 4,
+      "name": "Pandora"
+    },
+    {
+      "rank": 5,
+      "name": "WiMP"
+    },
+    {
+      "rank": 6,
+      "name": "Meta"
+    },
+    {
+      "rank": 7,
+      "name": "Amazon Unlimited"
+    },
+    {
+      "rank": 8,
+      "name": "Music Island"
+    },
+    {
+      "rank": 9,
+      "name": "Deezer"
+    },
+    {
+      "rank": 10,
+      "name": "Amazon Cloud"
+    }
+  ],
+  "saleTypes": [
+    "Download",
+    "Streaming"
+  ],
+  "deviceData": "The export records Store Name, so platform ranks are available. It does not contain device type."
+}

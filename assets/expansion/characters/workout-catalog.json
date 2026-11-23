@@ -1,0 +1,118 @@
+[
+  {
+    "id": "body-bench-press",
+    "title": "Notes bench press",
+    "lesson": "1-4",
+    "type": "model",
+    "model": "assets/expansion/characters/body-bench-press.glb",
+    "poster": "assets/expansion/characters/body-bench-press.webp",
+    "alt": "Notes lifting a barbell on the original NFG exercise bench",
+    "animation": "Bench press",
+    "duration": 14.54,
+    "original": true,
+    "source": "gym animation.blend · RED 4 BODY (SPORTS ANATOMY) · Drive 1BgA_QOWYIofPhPu9XEcH_X8V2P3aUnMb"
+  },
+  {
+    "id": "body-gazelle-machine",
+    "title": "Gazelle exercise glider",
+    "lesson": "1-4",
+    "type": "model",
+    "model": "assets/expansion/characters/body-gazelle-machine.glb",
+    "poster": "assets/expansion/characters/body-gazelle-machine.webp",
+    "alt": "NFG Gazelle machine with swing arms and foot platforms",
+    "original": true,
+    "source": "gazelle.FBX · isolated gazelle collection · Drive 1qjEktOFPUoYFOxGQKSMX33NJtIjcdGGY"
+  },
+  {
+    "id": "body-gazelle-pose",
+    "title": "Notes in the Gazelle pose",
+    "lesson": "1-4",
+    "type": "model",
+    "model": "assets/expansion/characters/body-gazelle-pose.glb",
+    "poster": "assets/expansion/characters/body-gazelle-pose.webp",
+    "alt": "Notes in a wide running stride from the Gazelle pose source",
+    "original": true,
+    "source": "Pose 1 (Gazelle).blend · frame 194 · Drive 1wwgRxofxDSi-CGEo2EteGWAlNdmBjhM4"
+  },
+  {
+    "id": "red-food-eating",
+    "title": "Notes eating pose",
+    "lesson": "1-5",
+    "type": "model",
+    "model": "assets/expansion/characters/red-food-eating.glb",
+    "poster": "assets/expansion/characters/red-food-eating.webp",
+    "alt": "Notes raising a bite of food to his mouth in the original NFG pose",
+    "original": true,
+    "source": "Eating food Pose.blend · RED 5 FOOD · Drive 1-nF5C72G7ry3KHZbbM56UkrFZ6FMg8SO"
+  },
+  {
+    "id": "body-workout-walk",
+    "title": "Notes walks outside",
+    "lesson": "1-4",
+    "type": "photo",
+    "image": "assets/expansion/characters/body-workout-walk.webp",
+    "alt": "Notes walking outside the house in his Red Day shirt",
+    "original": true,
+    "source": "NFG Easy Shot Review · Red Day storyboard · S038"
+  },
+  {
+    "id": "body-workout-basketball",
+    "title": "Notes practices basketball",
+    "lesson": "1-4",
+    "type": "photo",
+    "image": "assets/expansion/characters/body-workout-basketball.webp",
+    "alt": "Notes dribbling a basketball on the outside court",
+    "original": true,
+    "source": "NFG Easy Shot Review · Red Day storyboard · S039"
+  },
+  {
+    "id": "body-workout-gazelle",
+    "title": "Notes in the gym",
+    "lesson": "1-4",
+    "type": "photo",
+    "image": "assets/expansion/characters/body-workout-gazelle.webp",
+    "alt": "Notes on the exercise glider in the NFG gym",
+    "original": true,
+    "source": "NFG Easy Shot Review · Red Day storyboard · S040"
+  },
+  {
+    "id": "body-michel-angle-reference",
+    "title": "Notes pedestal pose reference",
+    "lesson": "1-4",
+    "type": "photo",
+    "image": "assets/expansion/characters/body-michel-angle-reference.webp",
+    "alt": "Notes standing on a sculpture pedestal in the NFG Michel-Angle pose reference",
+    "original": true,
+    "source": "NFG Pose Gallery · Michel-Angle pose · NFG-R023"
+  },
+  {
+    "id": "red-food-wash",
+    "title": "Wash the vegetables",
+    "lesson": "1-5",
+    "type": "photo",
+    "image": "assets/expansion/characters/red-food-wash.webp",
+    "alt": "Notes washing vegetables in the Red Day kitchen",
+    "original": true,
+    "source": "NFG Easy Shot Review · Red Day storyboard · S041"
+  },
+  {
+    "id": "red-food-prepare",
+    "title": "Prepare a meal",
+    "lesson": "1-5",
+    "type": "photo",
+    "image": "assets/expansion/characters/red-food-prepare.webp",
+    "alt": "Notes preparing a bowl of vegetables in the Red Day kitchen",
+    "original": true,
+    "source": "NFG Easy Shot Review · Red Day storyboard · S042"
+  },
+  {
+    "id": "red-food-meal",
+    "title": "Sit down to eat",
+    "lesson": "1-5",
+    "type": "photo",
+    "image": "assets/expansion/characters/red-food-meal.webp",
+    "alt": "Notes eating his prepared meal with water on the table",
+    "original": true,
+    "source": "NFG Easy Shot Review · Red Day storyboard · S043"
+  }
+]

@@ -1,0 +1,36 @@
+.nfg-royalties, .nfg-royalty-guide, .nfg-royalty-estimates { display: grid; gap: 14px; }
+.nfg-royalties { color: var(--x-white); }
+.nfg-royalty-nav { display: flex; flex-wrap: wrap; gap: 8px 17px; }
+.nfg-royalties a { color: var(--x-gold); text-decoration: underline; text-underline-offset: .2em; width: fit-content; }
+.nfg-royalty-guide article, .nfg-royalty-estimates, .nfg-royalty-form, .nfg-royalties details {
+    padding: 15px;
+    background: #18150d;
+    border: 1px solid #ccab4c55;
+    border-radius: 11px;
+}
+.nfg-royalties p { font-size: .85rem; color: #d3c9b3; margin-top: 5px; }
+.nfg-royalty-guide strong { display: block; margin-top: 7px; color: #eacb81; }
+.nfg-royalty-form { display: flex; align-items: end; flex-wrap: wrap; gap: 10px; }
+.nfg-royalties label { display: grid; gap: 5px; font-size: .78rem; }
+.nfg-royalties input, .nfg-royalties button {
+    min-height: 38px;
+    min-width: 0;
+    padding: 7px 10px;
+    color: #f9efdf;
+    background: #221e15;
+    border: 1px solid #ffffff40;
+    border-radius: 6px;
+    color-scheme: dark;
+    font: inherit;
+}
+.nfg-royalties button { background: #e1c172; color: #171104; font-size: .79rem; cursor: pointer; }
+.nfg-royalties :focus-visible { outline: 2px solid var(--x-gold); outline-offset: 3px; }
+.nfg-estimate-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); gap: 9px; }
+.nfg-estimate-cards article { display: grid; align-content: start; gap: 5px; padding: 10px; background: #242017; border: 1px solid #ffffff19; border-radius: 8px; }
+.nfg-estimate-cards h4 { font-size: .9rem; }
+.nfg-estimate-cards strong { font-size: .89rem; color: #f1d68f; }
+.nfg-estimate-cards small, .nfg-estimate-cards span { font-size: .73rem; color: #d2c6ad; }
+.nfg-royalties summary { cursor: pointer; }
+.nfg-royalties ul { list-style: none; }
+.nfg-royalties li { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: .8rem; padding: 6px 0; }
+.nfg-royalties li button { min-height: 27px; background: #33251c; color: #fff; }
