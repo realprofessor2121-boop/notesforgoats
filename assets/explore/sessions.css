@@ -1,0 +1,238 @@
+.nfg-sessions {
+    --nfg-session-gold: #e9c273;
+    --nfg-session-paper: #f3ede2;
+    --nfg-session-muted: #c6beb1;
+    --nfg-session-border: #3c3636;
+    color: var(--nfg-session-paper);
+    color-scheme: dark;
+}
+
+.nfg-sessions [hidden] {
+    display: none !important;
+}
+
+.nfg-session-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.22fr) minmax(0, 1fr);
+    align-items: start;
+    gap: 14px;
+}
+
+.nfg-session-form,
+.nfg-session-saved {
+    min-width: 0;
+    padding: clamp(12px, 2.6vw, 21px);
+    border: 1px solid var(--nfg-session-border);
+    border-radius: 12px;
+    background: #18171b;
+}
+
+.nfg-session-form {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.nfg-session-wide {
+    grid-column: 1 / -1;
+}
+
+.nfg-session-form-header,
+.nfg-session-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 7px;
+}
+
+.nfg-session-form-header {
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.nfg-session-heading,
+.nfg-session-share h4 {
+    margin: 0;
+    color: var(--nfg-session-paper);
+    font-size: 1.05rem;
+}
+
+.nfg-session-field {
+    display: grid;
+    min-width: 0;
+    gap: 4px;
+    color: var(--nfg-session-muted);
+    font-size: .82rem;
+}
+
+.nfg-session-field input,
+.nfg-session-field select,
+.nfg-session-field textarea,
+.nfg-session-invite-text {
+    width: 100%;
+    min-width: 0;
+    min-height: 43px;
+    padding: 7px 9px;
+    border: 1px solid #4b4546;
+    border-radius: 6px;
+    background: #242127;
+    color: var(--nfg-session-paper);
+    font: inherit;
+}
+
+.nfg-session-field textarea,
+.nfg-session-invite-text {
+    resize: vertical;
+    font-size: .83rem;
+}
+
+.nfg-session-checkbox {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 8px;
+    color: var(--nfg-session-muted);
+    font-size: .82rem;
+}
+
+.nfg-session-checkbox input {
+    width: 16px;
+    height: 16px;
+    accent-color: var(--nfg-session-gold);
+}
+
+.nfg-session-checkbox input:disabled + span {
+    opacity: .64;
+}
+
+.nfg-session-note,
+.nfg-session-status {
+    margin: 0;
+    color: var(--nfg-session-muted);
+    font-size: .79rem;
+    line-height: 1.48;
+}
+
+.nfg-session-status:empty {
+    display: none;
+}
+
+.nfg-session-primary,
+.nfg-session-small,
+.nfg-session-remove {
+    display: inline-flex;
+    min-height: 40px;
+    align-items: center;
+    padding: 4px 10px;
+    border: 1px solid #564945;
+    border-radius: 6px;
+    background: #292429;
+    color: var(--nfg-session-paper);
+    font: inherit;
+    font-size: .82rem;
+    line-height: 1.3;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nfg-session-primary {
+    border-color: var(--nfg-session-gold);
+    background: var(--nfg-session-gold);
+    color: #211708;
+    font-weight: 750;
+}
+
+.nfg-sessions :where(a, button, input, select, textarea):focus-visible {
+    outline: 2px solid var(--nfg-session-gold);
+    outline-offset: 3px;
+}
+
+.nfg-session-primary:hover {
+    background: #f6dba5;
+}
+
+.nfg-session-small:hover,
+.nfg-session-remove:hover,
+.nfg-session-entry:hover {
+    border-color: var(--nfg-session-gold);
+}
+
+.nfg-session-saved {
+    display: grid;
+    gap: 10px;
+}
+
+.nfg-session-list {
+    display: grid;
+    max-height: 360px;
+    overflow-y: auto;
+    gap: 6px;
+    padding: 4px;
+    margin: -4px;
+}
+
+.nfg-session-entry {
+    display: grid;
+    min-width: 0;
+    gap: 1px;
+    padding: 7px 9px;
+    border: 1px solid #453c40;
+    border-left: 3px solid var(--nfg-session-day-color);
+    border-radius: 5px;
+    background: #242127;
+    color: var(--nfg-session-paper);
+    text-align: left;
+    font: inherit;
+    font-size: .84rem;
+    cursor: pointer;
+}
+
+.nfg-session-entry[aria-pressed='true'] {
+    border-color: var(--nfg-session-gold);
+    background: #372b20;
+}
+
+.nfg-session-entry span {
+    color: var(--nfg-session-muted);
+    font-size: .77rem;
+}
+
+.nfg-session-share {
+    display: grid;
+    min-width: 0;
+    gap: 9px;
+    padding-top: 11px;
+    border-top: 1px solid var(--nfg-session-border);
+}
+
+.nfg-session-remove {
+    justify-self: start;
+    min-height: 30px;
+    padding: 1px 5px;
+    border: 1px solid transparent;
+    background: transparent;
+    color: #e8b79f;
+    text-decoration: underline;
+    text-underline-offset: .17em;
+}
+
+.nfg-session-invite-text {
+    width: 100%;
+}
+
+.nfg-session-feedback {
+    margin-top: 7px;
+}
+
+@media (max-width: 710px) {
+    .nfg-session-layout {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+@media (max-width: 360px) {
+    .nfg-session-form {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}

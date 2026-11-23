@@ -1,0 +1,132 @@
+.x-bill-summary {
+    --x-bill-color: #fff7ed;
+    --x-bill-glow: #fff7ed70;
+    display: grid;
+    justify-items: start;
+    gap: 4px;
+    min-width: 0;
+    width: 100%;
+    margin-top: 5px;
+    padding-top: 8px;
+    border-top: 1px solid var(--x-line, #ffffff20);
+    text-align: left;
+}
+
+.x-bill-summary[data-bill-status="due"] {
+    --x-bill-color: #ff8984;
+    --x-bill-glow: #ff50487d;
+}
+
+.x-bill-summary:is([data-bill-status="balanced"], [data-bill-status="credit"], [data-bill-status="paid"]) {
+    --x-bill-color: #98f4a2;
+    --x-bill-glow: #5ae98378;
+}
+
+.x-bill-amount {
+    color: var(--x-bill-color);
+    font-size: clamp(.83rem, 1.6vw, 1.11rem);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+    text-shadow: 0 0 8px var(--x-bill-glow), 0 0 18px var(--x-bill-glow);
+}
+
+.x-bill-date {
+    color: #d4c9b6;
+    font-size: .72rem;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+}
+
+.x-bill-status {
+    color: var(--x-bill-color);
+    font-size: .69rem;
+    line-height: 1.35;
+}
+
+.x-bill-editor {
+    display: grid;
+    gap: 8px;
+    margin: 14px 0 4px;
+    padding: 11px 10px;
+    border: 1px solid var(--x-line, #ffffff20);
+    border-radius: 10px;
+    background: #19160f;
+}
+
+.x-bill-editor[hidden] { display: none; }
+
+.x-bill-editor .x-bill-editor-title {
+    color: var(--x-white, #f6f0e4);
+    font-size: .82rem;
+    font-weight: 600;
+}
+
+.x-bill-under-model .x-bill-summary {
+    margin: 0;
+    padding-top: 0;
+    border: 0;
+    justify-items: center;
+    text-align: center;
+}
+
+.x-bill-form, .x-bill-fields, .x-bill-field {
+    display: grid;
+    min-width: 0;
+    gap: 6px;
+}
+
+.x-bill-form {
+    gap: 8px;
+    padding-top: 8px;
+    border-top: 1px solid var(--x-line, #ffffff20);
+}
+
+.x-bill-fields { grid-template-columns: repeat(auto-fit, minmax(min(100%, 8rem), 1fr)); }
+
+.x-bill-field {
+    color: #e7ded0;
+    font-size: .73rem;
+}
+
+.x-bill-field input, .x-bill-field select {
+    color-scheme: dark;
+    color: var(--x-white, #f6f0e4);
+    background: #242018;
+    border: 1px solid #ffffff36;
+    border-radius: 7px;
+    min-height: 40px;
+    min-width: 0;
+    width: 100%;
+    padding: 5px 8px;
+    font: inherit;
+}
+
+.x-bill-editor :focus-visible {
+    outline: 2px solid var(--x-gold, #efcc71);
+    outline-offset: 2px;
+}
+
+.x-bill-editor button.x-bill-save {
+    color: #201806;
+    background: var(--x-gold, #efcc71);
+    border-color: var(--x-gold, #efcc71);
+    font-size: .77rem;
+    font-weight: 600;
+}
+
+.x-bill-editor button.x-bill-save:hover { background: #ffe3a0; }
+
+.x-bill-privacy, .x-bill-feedback {
+    color: #c5b8a2;
+    font-size: .68rem;
+    line-height: 1.35;
+}
+
+.x-bill-feedback { color: var(--x-white, #f6f0e4); }
+.x-bill-feedback:empty { margin-top: -8px; }
+
+@media (forced-colors: active) {
+    .x-bill-amount { text-shadow: none; }
+}

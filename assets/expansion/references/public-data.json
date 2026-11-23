@@ -1,0 +1,160 @@
+{
+  "wealth": {
+    "title": "Median U.S. family net worth by race and ethnicity",
+    "year": 2025,
+    "label": "Median net worth in 2025 U.S. dollars",
+    "unit": "USD",
+    "definition": "Gross family assets minus liabilities. Groups use the survey respondent’s race or ethnicity.",
+    "source": "Federal Reserve, 2025 Survey of Consumer Finances, Table 2",
+    "url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+    "rows": [
+      {
+        "label": "White non-Hispanic",
+        "value": 332100
+      },
+      {
+        "label": "Black non-Hispanic",
+        "value": 36800
+      },
+      {
+        "label": "Hispanic or Latino",
+        "value": 79600
+      },
+      {
+        "label": "Asian",
+        "value": 677600
+      },
+      {
+        "label": "Other (non-Asian) or multiple race",
+        "value": 97500
+      }
+    ]
+  },
+  "billionaires": {
+    "title": "World’s ten richest people",
+    "asOf": "2026-03-01",
+    "label": "Estimated net worth in billions of U.S. dollars",
+    "unit": "USD billions",
+    "source": "Forbes, 2026 annual World’s Billionaires list",
+    "url": "https://www.forbes.com/sites/chasewithorn/2026/03/10/forbes-worlds-billionaires-list-2026-the-top-200/",
+    "rows": [
+      {
+        "rank": 1,
+        "name": "Elon Musk",
+        "value": 839,
+        "country": "United States"
+      },
+      {
+        "rank": 2,
+        "name": "Larry Page",
+        "value": 257,
+        "country": "United States"
+      },
+      {
+        "rank": 3,
+        "name": "Sergey Brin",
+        "value": 237,
+        "country": "United States"
+      },
+      {
+        "rank": 4,
+        "name": "Jeff Bezos",
+        "value": 224,
+        "country": "United States"
+      },
+      {
+        "rank": 5,
+        "name": "Mark Zuckerberg",
+        "value": 222,
+        "country": "United States"
+      },
+      {
+        "rank": 6,
+        "name": "Larry Ellison",
+        "value": 190,
+        "country": "United States"
+      },
+      {
+        "rank": 7,
+        "name": "Bernard Arnault & family",
+        "value": 171,
+        "country": "France"
+      },
+      {
+        "rank": 8,
+        "name": "Jensen Huang",
+        "value": 154,
+        "country": "United States"
+      },
+      {
+        "rank": 9,
+        "name": "Warren Buffett",
+        "value": 149,
+        "country": "United States"
+      },
+      {
+        "rank": 10,
+        "name": "Amancio Ortega",
+        "value": 148,
+        "country": "Spain"
+      }
+    ]
+  },
+  "recordedMusicMarkets": {
+    "title": "Top ten global recorded music markets",
+    "year": 2025,
+    "definition": "National recorded music markets by total trade revenue across formats. This is an industry reference.",
+    "source": "IFPI, Global Music Report 2026, State of the Industry",
+    "url": "https://www.ifpi.org/wp-content/uploads/2026/03/GMR2026_SOTI.pdf",
+    "rows": [
+      {
+        "rank": 1,
+        "market": "United States"
+      },
+      {
+        "rank": 2,
+        "market": "Japan"
+      },
+      {
+        "rank": 3,
+        "market": "United Kingdom"
+      },
+      {
+        "rank": 4,
+        "market": "China"
+      },
+      {
+        "rank": 5,
+        "market": "Germany"
+      },
+      {
+        "rank": 6,
+        "market": "France"
+      },
+      {
+        "rank": 7,
+        "market": "South Korea"
+      },
+      {
+        "rank": 8,
+        "market": "Brazil"
+      },
+      {
+        "rank": 9,
+        "market": "Canada"
+      },
+      {
+        "rank": 10,
+        "market": "Mexico"
+      }
+    ]
+  },
+  "spotifyArtistOrigins": {
+    "title": "Highest-streaming Spotify artist or band from each state",
+    "year": 2022,
+    "source": "StatsPanda archived visualization, using Spotify and ChartMasters",
+    "url": "https://www.reddit.com/r/MapPorn/comments/zcv8d6/oc_the_highest_streaming_spotify_artistband_from/",
+    "description": "Groups artists by origin and ranks estimated lifetime global streams through the chart date. A historical reference, not a ranking of listening in each state.",
+    "src": "assets/expansion/references/maps/spotify-artist-origins-2022.webp"
+  }
+}

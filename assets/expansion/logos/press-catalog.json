@@ -1,0 +1,42 @@
+[
+  {
+    "id": "press-tivo",
+    "title": "TiVo",
+    "kind": "press",
+    "lesson": "6-3",
+    "original": true,
+    "assetType": "reference",
+    "poster": "assets/expansion/logos/press-tivo.webp",
+    "source": "Original NFG Day 6 course presentation"
+  },
+  {
+    "id": "crypto-moonpay-reference",
+    "title": "MoonPay",
+    "kind": "crypto",
+    "lesson": "6-7",
+    "original": true,
+    "assetType": "reference",
+    "poster": "assets/expansion/logos/crypto-moonpay-reference.webp",
+    "source": "Original NFG Day 6 course presentation"
+  },
+  {
+    "id": "crypto-dex-screener-reference",
+    "title": "DEX Screener",
+    "kind": "crypto",
+    "lesson": "6-7",
+    "original": true,
+    "assetType": "reference",
+    "poster": "assets/expansion/logos/crypto-dex-screener-reference.webp",
+    "source": "Original NFG Day 6 course presentation"
+  },
+  {
+    "id": "press-musixmatch",
+    "title": "Musixmatch",
+    "kind": "press",
+    "lesson": "6-1",
+    "original": true,
+    "assetType": "reference",
+    "poster": "assets/expansion/logos/press-musixmatch.webp",
+    "source": "Original NFG company logo archive"
+  }
+]

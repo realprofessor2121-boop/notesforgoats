@@ -1,0 +1,10 @@
+:root { color-scheme:dark; font-family:system-ui,sans-serif; background:#12110d; color:#f5eddc }
+body { margin:0; background:radial-gradient(ellipse at top,#302619,#12110d 49%) }
+main { max-width:800px; padding:32px clamp(16px,4vw,38px) 60px; margin:auto }
+a { color:#efcd81; text-underline-offset:.19em }
+h1 { font-size:clamp(1.8rem,5vw,3rem); margin:18px 0 8px }
+h2 { margin:30px 0 12px; color:#f8dfa6; font-size:1.22rem }
+p,dd { line-height:1.55; color:#e8ddc7 }
+dl { margin:0; border-top:1px solid #b8975059 }
+dt { font-weight:700; padding-top:12px }
+dd { margin:4px 0 0; padding-bottom:12px; border-bottom:1px solid #b8975036 }

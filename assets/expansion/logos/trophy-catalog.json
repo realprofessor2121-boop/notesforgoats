@@ -1,0 +1,88 @@
+[
+  {
+    "id": "trophy-music-trophy",
+    "title": "Treble clef trophy",
+    "original": true,
+    "kind": "trophies",
+    "lesson": "7-6",
+    "source": "Fully Updated House / Pink Room",
+    "model": "assets/expansion/logos/trophy-music-trophy.glb",
+    "poster": "assets/expansion/logos/trophy-music-trophy.webp",
+    "lightBackground": true
+  },
+  {
+    "id": "trophy-gold-1",
+    "title": "Gramophone trophy 1",
+    "original": true,
+    "kind": "trophies",
+    "lesson": "7-6",
+    "source": "Fully Updated House / Pink Room",
+    "model": "assets/expansion/logos/trophy-gold-1.glb",
+    "poster": "assets/expansion/logos/trophy-gold-1.webp",
+    "lightBackground": true
+  },
+  {
+    "id": "trophy-gold-2",
+    "title": "Gramophone trophy 2",
+    "original": true,
+    "kind": "trophies",
+    "lesson": "7-6",
+    "source": "Fully Updated House / Pink Room",
+    "model": "assets/expansion/logos/trophy-gold-2.glb",
+    "poster": "assets/expansion/logos/trophy-gold-2.webp",
+    "lightBackground": true
+  },
+  {
+    "id": "trophy-medal",
+    "title": "Boxed medal",
+    "original": true,
+    "kind": "trophies",
+    "lesson": "7-6",
+    "source": "Fully Updated House / Pink Room",
+    "model": "assets/expansion/logos/trophy-medal.glb",
+    "poster": "assets/expansion/logos/trophy-medal.webp",
+    "lightBackground": true
+  },
+  {
+    "id": "trophy-creator-award",
+    "title": "YouTube Creator Award",
+    "original": true,
+    "kind": "trophies",
+    "lesson": "7-6",
+    "source": "Fully Updated House / Pink Room",
+    "model": "assets/expansion/logos/trophy-creator-award.glb",
+    "poster": "assets/expansion/logos/trophy-creator-award.webp",
+    "lightBackground": true
+  },
+  {
+    "id": "trophy-creator-award-gold",
+    "title": "YouTube diamond-style award",
+    "original": true,
+    "kind": "trophies",
+    "lesson": "7-6",
+    "source": "Fully Updated House / Pink Room",
+    "model": "assets/expansion/logos/trophy-creator-award-gold.glb",
+    "poster": "assets/expansion/logos/trophy-creator-award-gold.webp",
+    "lightBackground": true
+  },
+  {
+    "id": "riaa-awards",
+    "title": "RIAA Gold, Platinum, and Diamond award art",
+    "original": true,
+    "kind": "trophies",
+    "lesson": "7-6",
+    "poster": "assets/expansion/logos/riaa-awards.webp",
+    "assetType": "reference",
+    "source": "Original NFG class reference artwork"
+  },
+  {
+    "id": "riaa-course-logo",
+    "title": "RIAA course logo",
+    "original": true,
+    "kind": "trophies",
+    "lesson": "7-6",
+    "poster": "assets/expansion/logos/riaa-course-logo.webp",
+    "assetType": "reference",
+    "source": "Original NFG class reference artwork"
+  }
+]

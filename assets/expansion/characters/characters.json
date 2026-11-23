@@ -1,0 +1,31 @@
+[
+  {
+    "id": "lily",
+    "title": "Lily",
+    "poster": "assets/expansion/characters/lily-dream-reference.webp",
+    "video": "assets/expansion/characters/lily-dream-reference.mp4",
+    "description": "The original Lily dream reference from Black Day. A native 3D character model is pending.",
+    "source": "NFG DREAM w LILY.gif · Black Day board · 3458764648175977108"
+  },
+  {
+    "id": "businessman",
+    "title": "Businessman",
+    "poster": "assets/expansion/characters/businessman-yellow-green-tie.webp",
+    "description": "Original NFG Yellow Team suit art. The matching native 3D character model is pending.",
+    "source": "YELLOW TEAM · 441.png · Drive 1d6JyPxaZkXaTSNi1QJBRPYj_s01FieRl",
+    "variants": [
+      "assets/expansion/characters/businessman-yellow-blue-tie.webp",
+      "assets/expansion/characters/businessman-white-team.webp"
+    ]
+  },
+  {
+    "id": "accountant",
+    "title": "Accountant, CPA and CFO",
+    "poster": "assets/expansion/characters/yellow-advisors-reference.webp",
+    "description": "Original NFG scene of Notes meeting his lawyer and accountant. The separately indexed CPA, CFO and financial analyst turnaround and matching 3D model are pending.",
+    "source": "NFG Easy Shot Review · Yellow Day · S071",
+    "variants": [
+      "assets/expansion/characters/white-accountant-reference.webp"
+    ]
+  }
+]

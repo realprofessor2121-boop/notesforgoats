@@ -1,0 +1,99 @@
+
+/* NFG Store Upgrade Styles.
+   Load AFTER assets/modern/modern.css */
+
+/* ===== STORE: CARD COLOR FOLLOWS THE ROOM ===== */
+
+.product-card[hidden] {
+  display: none;
+}
+
+.nfg-room-card {
+  background: color-mix(in srgb, var(--room) 34%, #0a0a0a);
+  border-color: var(--room);
+}
+
+.nfg-room-card .product-img-wrapper {
+  background: var(--room);
+  border-bottom-color: rgba(0,0,0,.35);
+}
+
+.nfg-room-card .product-info p {
+  color: #e6e6e6;
+}
+
+.nfg-room-card:hover {
+  border-color: #fff;
+  box-shadow:
+    0 20px 40px rgba(0,0,0,.6),
+    0 0 24px var(--room);
+}
+
+/* ===== ROOM FILTER BAR ===== */
+
+.nfg-roombar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 0 0 30px;
+}
+
+.nfg-roombar button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 18px;
+  border-radius: 999px;
+  border: 2px solid rgba(255,255,255,.25);
+  background: #111;
+  color: #eee;
+  font: 700 .82rem Poppins, sans-serif;
+  cursor: pointer;
+  transition: .25s;
+}
+
+.nfg-roombar button[style]::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--room);
+  border: 1px solid rgba(255,255,255,.7);
+}
+
+.nfg-roombar button:hover {
+  border-color: #fff;
+}
+
+.nfg-roombar button.on {
+  background: var(--gold);
+  color: #111;
+  border-color: var(--gold);
+}
+
+/* ===== RESPONSIVE STORE ===== */
+
+@media (max-width: 860px) {
+  .nfg-roombar {
+    gap: 7px;
+    padding: 0 10px;
+  }
+
+  .nfg-roombar button {
+    padding: 8px 14px;
+    font-size: .76rem;
+  }
+}
+
+/* ===== ACCESSIBILITY ===== */
+
+@media (prefers-reduced-motion: reduce) {
+  .nfg-room-card {
+    transition: none;
+  }
+
+  .nfg-roombar button {
+    transition: none;
+  }
+}

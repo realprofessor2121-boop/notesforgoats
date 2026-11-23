@@ -1,0 +1,50 @@
+[
+  {
+    "title": "NFG Blockchain and NFTs overview",
+    "src": "assets/expansion/references/blockchain-course-board.webp",
+    "lesson": "6-7",
+    "description": "Purple Day archive chart shows wallet and exchange categories."
+  },
+  {
+    "title": "NFG blockchain vendor diagram",
+    "src": "assets/expansion/references/blockchain-vendor-directory.webp",
+    "lesson": "6-7",
+    "description": "Purple Day archive chart with named technology and platform marks."
+  },
+  {
+    "title": "RIAA course logo",
+    "src": "assets/expansion/references/riaa-course-logo.webp",
+    "lesson": "7-6",
+    "description": "Archived NFG certification lesson visual."
+  },
+  {
+    "title": "Gold, Platinum and Diamond",
+    "src": "assets/expansion/references/riaa-awards.webp",
+    "lesson": "7-6",
+    "description": "Archived awards visual used in the NFG certification lesson."
+  },
+  {
+    "title": "Notes — Hang In There",
+    "src": "assets/expansion/references/notes-hang-in-there.webp",
+    "lesson": "0-2",
+    "description": "Original Notes render from the course’s bill-pressure motivation sequence."
+  },
+  {
+    "title": "Notes — Hang In There (alternate)",
+    "src": "assets/expansion/references/notes-hang-in-there-alternate.webp",
+    "lesson": "0-2",
+    "description": "Alternate original pose in the same sequence."
+  },
+  {
+    "title": "Notes in cap and gown",
+    "src": "assets/expansion/references/notes-graduation.webp",
+    "lesson": "7-7",
+    "description": "Original Notes graduation portrait from Pink Day."
+  },
+  {
+    "title": "Original NFG Journey dashboard",
+    "src": "assets/expansion/references/nfg-journey-dashboard.webp",
+    "lesson": "0-1",
+    "description": "An early NFG dashboard screen showing course days, learning goals and suggested gear."
+  }
+]

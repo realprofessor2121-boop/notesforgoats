@@ -1,0 +1,114 @@
+[
+  {
+    "title": "Alternative",
+    "src": "assets/expansion/references/maps/alternative.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-alternative.webp"
+  },
+  {
+    "title": "Bluegrass",
+    "src": "assets/expansion/references/maps/bluegrass.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-bluegrass.webp"
+  },
+  {
+    "title": "Country",
+    "src": "assets/expansion/references/maps/country.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-country.webp"
+  },
+  {
+    "title": "Electronic",
+    "src": "assets/expansion/references/maps/electronic.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-electronic.webp"
+  },
+  {
+    "title": "Folk",
+    "src": "assets/expansion/references/maps/folk.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-folk.webp"
+  },
+  {
+    "title": "Gospel",
+    "src": "assets/expansion/references/maps/gospel.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-gospel.webp"
+  },
+  {
+    "title": "Indie",
+    "src": "assets/expansion/references/maps/indie.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-indie.webp"
+  },
+  {
+    "title": "Jazz (alternate)",
+    "src": "assets/expansion/references/maps/jazz-variant.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-jazz-variant.webp"
+  },
+  {
+    "title": "Jazz",
+    "src": "assets/expansion/references/maps/jazz.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-jazz.webp"
+  },
+  {
+    "title": "Latin",
+    "src": "assets/expansion/references/maps/latin.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-latin.webp"
+  },
+  {
+    "title": "Metal",
+    "src": "assets/expansion/references/maps/metal.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-metal.webp"
+  },
+  {
+    "title": "Pop",
+    "src": "assets/expansion/references/maps/pop.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-pop.webp"
+  },
+  {
+    "title": "Punk",
+    "src": "assets/expansion/references/maps/punk.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-punk.webp"
+  },
+  {
+    "title": "R&B",
+    "src": "assets/expansion/references/maps/r-and-b.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-r-and-b.webp"
+  },
+  {
+    "title": "Rap",
+    "src": "assets/expansion/references/maps/rap.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-rap.webp"
+  },
+  {
+    "title": "Rock",
+    "src": "assets/expansion/references/maps/rock.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-rock.webp"
+  },
+  {
+    "title": "Soul",
+    "src": "assets/expansion/references/maps/soul.webp",
+    "description": "NFG genre reference. The image has no published legend, measurement period or sales figures.",
+    "highlight": "assets/expansion/references/maps/glow-soul.webp"
+  },
+  {
+    "title": "NFG genre map index",
+    "src": "assets/expansion/references/maps/nfg-genre-index.webp",
+    "description": "The course index lists 18 images. The source image for Blues is unavailable. Two Jazz images are listed."
+  },
+  {
+    "title": "Highest-streaming Spotify artist or band from each state",
+    "src": "assets/expansion/references/maps/spotify-artist-origins-2022.webp",
+    "description": "StatsPanda’s 2022 historical visualization groups artists by where they are from and uses estimated lifetime Spotify streams. It does not measure what residents of each state streamed."
+  }
+]
